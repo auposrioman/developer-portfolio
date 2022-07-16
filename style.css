@@ -1,4 +1,37 @@
+
 body{
-    font-size: small;
+    font-family: 'Poppins', sans-serif;
+ ;
 }
+h1{
+    font-size: 50px;
+}
+.asdf{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.agv{
+    width: 50%;
+    padding-left: 5%;
+}
+.agv img{
+    width: 50%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(aqua, skyblue);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+h2{
+    color: coral;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0%;
 }
