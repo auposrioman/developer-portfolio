@@ -9,13 +9,13 @@ h1{
 .asdf{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half-width{
     width: 40%;
-    padding: 5px 10px;
+    padding: 5px;
 }
 .half-width img{
     width: 60%;
@@ -31,7 +31,7 @@ section{
     font-weight: 700;
 }
 h2{
-    color: coral;
+    color:orange;
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -47,10 +47,35 @@ zoom: 70%;
     padding-left: 10px;
 }
 .padding{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .being-an-assosiate{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 30px;
 }
+.flexible-container{
+    display: flex;
+}
+#abc{
+    border-left: 7px solid blue;
+}
+#abc2{
+    border-left: 7px solid orange;
+}
+.Experience-item{
+   width: 40%;
+   margin-left: 2%;
+   margin-right: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5%;
+    border-left: 7px solid goldenrod;
+}
+    .experience-area{
+        background-image :url(images/exp-bg.png); 
+    background-repeat:no-repeat ; 
+}
+ footer p{
+    text-align: center;
+ }
